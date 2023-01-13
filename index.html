@@ -12,6 +12,10 @@
 
       gtag('config', 'G-7VX93E7LLT');
     </script>
+    <script
+            async
+            src="https://js.stripe.com/v3/pricing-table.js">
+    </script>
 
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -272,37 +276,21 @@
               <span>Pricing</span>
               <h2>Our Pricing Plans</h2>
               <p>
-                With the beta launch, the only option is a free plan, with some usage limitations. Other paid plans will become available soon.
+                You can start for free, to test out the service, and always upgrade should you wish.
               </p>
             </div>
           </div>
         </div>
 
         <div class="row g-0 align-items-center justify-content-center">
-          <div class="col-lg-4 col-md-6 col-sm-10">
+          <div class="col-lg-12 col-md-12 col-sm-12">
             <div
               class="ud-single-pricing first-item wow fadeInUp"
               data-wow-delay=".15s"
             >
-              <div class="ud-pricing-header">
-                <h3>FREE</h3>
-                <h4>$ 0.00/mo</h4>
-              </div>
-              <div class="ud-pricing-body">
-                <ul>
-                  <li>All functionality and libraries</li>
-                  <li>2 apps</li>
-                  <li>2 accounts per app</li>
-                  <li>2 users per account</li>
-                  <li>Lifetime access</li>
-                  <li>Free updates</li>
-                </ul>
-              </div>
-              <div class="ud-pricing-footer">
-                <a href="https://cerberus.a11n.io" target="_blank" class="ud-main-btn ud-border-btn">
-                  Start Now
-                </a>
-              </div>
+              <stripe-pricing-table pricing-table-id="prctbl_1MPp52IO2n4JFgB7arbUj0wf"
+                                    publishable-key="pk_live_SNptYWWW4sBHN4KNg0TiGVC0">
+              </stripe-pricing-table>
             </div>
           </div>
         </div>
