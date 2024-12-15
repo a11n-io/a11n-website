@@ -2,7 +2,6 @@
   "keys": [
     {
       "alg": "HS256",
-      "kid": "0n0uTXKqK*FzT9gEWTPdJp!bxUV9ns",
       "kty": "oct"
     }
   ]
